@@ -1,0 +1,196 @@
+
+/* Conteudo TOTAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Conteudo do BODY */
+  body {
+    /* background-image: url(assets/bg-mobile.jpg);  */
+  
+    /* Não repeitr imagem */
+    /* background-repeat: no-repeat; */
+  
+    /* Centralizar no meio. Altura de cima para baixo */
+    /* background-position: top center; */
+  
+    /* Cobrir toda a pagina da web */
+    /* background-size: cover;  */
+  
+    /* Tudo junto "Short Hand" OU "atalho" */
+    background-color: black;
+  
+    /* Altura da viweport */
+    height: 100vh;
+  }
+  
+  /* Todo conteudo do BODY */
+  body * {
+    font-family: "Inter", sans-serif;
+    color: white;
+  }
+  
+  /* Container da imagem */
+  #container {
+    /* Largura da caixa */
+    width: 100%;
+  
+    /*  largura maxima */
+    max-width: 500px;
+  
+    /* Alinhar ao centro */
+    margin: 56px auto 0px;
+  
+    padding: 0 24px;
+  }
+  
+  
+  /* Pai => Pode definir a tag filho senod unline.*/
+  #profile {
+    text-align: center; /*left or right. */
+    padding: 24px;
+  }
+  
+  /* Imagem */
+  #profile img {
+    /* Forçar alinhamento */
+    /* display: block; */
+  
+    /* Largura da caixa img */
+    width: 200px;
+  
+    /* Alinhar ao centro, caso não pegue, ultilize o "display: block" para forçar o alinhamento. */
+    margin: auto;
+  }
+  
+  /* Paragrafos */
+  #profile p {
+    font-weight: 500;
+    line-height: 24px;
+    margin-top: 8px;
+  }
+  
+  
+  /* links */
+  ul {
+    /* Sem estilo de lista */
+    list-style: none;
+  
+    /* Display flexivel */
+    display: flex;
+  
+    /* Conteudo em coluna */
+    flex-direction: column;
+  
+    /* Distancia entre os conteudos */
+    gap: 16px;
+  
+    /* Distancia de cima para baixo */
+    padding: 10px 0;
+  }
+  
+  /* Listas */
+  ul li a {
+
+
+    display: flex;
+  
+    /* Centralizar o conteudo */
+    justify-content: center;
+  
+    /* Alinhar o conteudo no eixo X */
+    align-items: center;
+  
+    padding: 16px 20px;
+  
+    /* Cor do fundo */
+    background: rgba(40, 37, 59, 0.514);
+  
+    /* Borda da caixa do conteudo */
+    
+  
+    /* Arredondamento da borda do conteudo */
+    border-radius: 8px;
+  
+    /* Borrar o fundo */
+    backdrop-filter: blur(4px);
+    /* Borrar o fundo, caso o pirmeiro não pegue */
+    -webkit-backdrop-filter: blur(4px);
+  
+    /* Sem decoração no texto */
+    text-decoration: none;
+  
+    /* largura do texto */
+    font-weight: 500;
+  
+    /* Transição de uma situaçção para outra */
+    transition: background 0.5s;
+  
+  }
+  
+  /* Estilização das listas */
+  ul li a:hover {
+    border: 2px solid rgba(40, 37, 59, 0.514);
+    background: rgb(49, 45, 73);
+    color: rgb(229, 229, 230);
+  }
+  
+  /* Icone das redes sociais */
+  #social-links{
+    display: flex;
+    gap: 5px;
+  
+    padding: 24px 0;
+  
+    font-size: 24px;
+    justify-content: center;
+   
+  }
+  
+  /* Linkls das redes sociais */
+  #social-links a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+  
+    transition: background 0.3s;
+    border-radius: 50%;
+    background: rgba(53, 51, 59, 0.322);
+     backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    
+  
+  }
+  
+  /* Estilização dos icones de redes sociais */
+  #social-links a:hover{
+    background: rgb(49, 45, 73);
+    border-radius: 50%;
+    border: 1px solid rgba(116, 106, 136, 0.493);
+  }
+  
+  /* Rodape da pagina */
+  footer{
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  footer a{
+    color: rgba(255, 255, 255, 0.466);
+  }
+  
+  footer a:hover{
+     color: rgba(255, 255, 255, 0.63);
+     transition: 0.3s;
+  
+  }
+  
+  @media (min-width: 700px) {
+    :root{
+      --bg-url: url(./photos\1111853.jpg)
+    }
+  }
