@@ -1,0 +1,291 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 0 35px 55px rgba(24, 23, 22, 0.253);
+   
+}
+.container  .left{
+    position: relative;
+    background: rgba(79, 78, 82, 0.137);
+    padding: 40px;
+}
+
+.profileText{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+    border-bottom: 1px solid rgba(189, 174, 37, 0.582);
+}
+
+.profileText .imgbx{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.profileText .imgbx img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+   
+}
+
+.profileText h2{
+    color: rgba(255, 255, 255, 0.829);
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+.contactInfo{
+    margin-bottom: 30px;
+}
+
+.title{
+    color: rgba(255, 255, 255, 0.884);
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+
+.contactInfo ul{
+    position: relative;
+
+}
+
+.contactInfo ul li{
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+
+}
+
+.contactInfo ul li .icon{
+    display: inline-block;
+    width: 30px;
+    font-size: 18px;
+    color: rgb(189, 174, 37);
+}
+
+.contactInfo ul li .text{
+    color: rgb(233, 227, 227);
+    font-weight: 300;
+    font-size: 12px;
+    
+
+}
+
+.contactInfoEdu li{
+    margin-bottom: 15px ;
+    list-style: none;
+}
+
+.contactInfoEdu h5{
+    color: rgb(189, 174, 37);
+    font-weight: 500;
+}
+
+.contactInfoEdu h4:nth-child(2){
+    color: white;
+    font-weight: 500;
+}
+
+.contactInfoEdu h4{
+    color: white;
+    font-weight: 300;
+    
+}
+
+.contactInfocurso li{
+    color: white;
+    list-style: none;
+
+}
+ 
+
+.contactInfocurso .porcenthtml{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgba(37, 39, 168, 0.39);
+    display: block;
+    margin-bottom: 5px;
+}
+.contactInfocurso .porcenthtml div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:rgb(34, 37, 199);
+}
+
+.contactInfocurso .porcentjs{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgba(37, 39, 168, 0.39);
+    display: block;
+    margin-bottom: 5px;
+}
+.contactInfocurso .porcentjs div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:rgb(34, 37, 199);
+}
+
+
+
+.contactInfocurso .porcentgit{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgba(37, 39, 168, 0.39);
+    display: block;
+    margin-bottom: 5px;
+}
+.contactInfocurso .porcentgit div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:rgb(34, 37, 199);
+}
+
+
+.contactInfocurso .porcentpy{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgba(37, 39, 168, 0.39);
+    display: block;
+    margin-bottom: 5px;
+}
+.contactInfocurso .porcentpy div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:rgb(34, 37, 199);
+}
+
+.contactInfocurso .porcentphp{
+    position: relative;
+    width: 100%;
+    height: 6px;
+    background: rgba(37, 39, 168, 0.39);
+    display: block;
+    margin-bottom: 5px;
+}
+.contactInfocurso .porcentphp div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background:rgb(34, 37, 199);
+}
+
+
+
+
+
+.container  .right{
+    position: relative;
+    background: rgb(255, 255, 255);
+    padding: 40px;
+}
+
+.about{
+    margin-bottom: 50px;
+
+}
+
+.about:last-child{
+    margin-bottom: 0;
+
+}
+
+.title2{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+p{
+    color: rgb(66, 60, 60);
+    font-size: 18px;
+}
+
+.competencia .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.competencia .box h4{
+    text-transform: uppercase;
+    color: rgb(83, 80, 80);
+   font-size: 12px;
+    
+}
+
+.competencia .box .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: rgba(96, 59, 165, 0.363);
+}
+
+.competencia .box .percent div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: rgb(96, 59, 165);
+    ;
+    ;
+}
+
+a{
+    text-decoration: none;
+}
