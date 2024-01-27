@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: black;
+    background-color: #ffde59;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -20,16 +20,16 @@ body{
     position: relative;
     width: 100%;
     max-width: 1000px;
-    min-height: 1000px;
+    min-height: 600px;
     margin: 50px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(24, 23, 22, 0.253);
+    box-shadow: 0 35px 55px rgba(24, 23, 22, 0.795);
    
 }
 .container  .left{
     position: relative;
-    background: rgba(79, 78, 82, 0.137);
+    background: rgb(0, 0, 0);
     padding: 40px;
 }
 

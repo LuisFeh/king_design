@@ -8,16 +8,16 @@
   
   /* Conteudo do BODY */
   body {
-    /* background-image: url(assets/bg-mobile.jpg);  */
+   
   
     /* Não repeitr imagem */
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
   
     /* Centralizar no meio. Altura de cima para baixo */
-    /* background-position: top center; */
+    background-position: top center;
   
     /* Cobrir toda a pagina da web */
-    /* background-size: cover;  */
+    background-size: cover; 
   
     /* Tudo junto "Short Hand" OU "atalho" */
     background-color: black;
@@ -63,6 +63,7 @@
   
     /* Alinhar ao centro, caso não pegue, ultilize o "display: block" para forçar o alinhamento. */
     margin: auto;
+    margin-top:25%;
   }
   
   /* Paragrafos */
@@ -93,7 +94,9 @@
   
   /* Listas */
   ul li a {
+    color: black;
 
+    font-size: 20px;
 
     display: flex;
   
@@ -106,13 +109,15 @@
     padding: 16px 20px;
   
     /* Cor do fundo */
-    background: rgba(40, 37, 59, 0.514);
+    background-color: #ffde59;
   
     /* Borda da caixa do conteudo */
     
   
     /* Arredondamento da borda do conteudo */
     border-radius: 8px;
+
+    border: 4px solid #ffde59;
   
     /* Borrar o fundo */
     backdrop-filter: blur(4px);
@@ -132,19 +137,21 @@
   
   /* Estilização das listas */
   ul li a:hover {
-    border: 2px solid rgba(40, 37, 59, 0.514);
-    background: rgb(49, 45, 73);
-    color: rgb(229, 229, 230);
+    border: 4px solid #ffde59;
+    transform: scale(1.07);
+    background: rgb(0, 0, 0);
+    color: #ffde59;
   }
   
   /* Icone das redes sociais */
   #social-links{
     display: flex;
     gap: 5px;
+   
   
     padding: 24px 0;
   
-    font-size: 24px;
+    font-size: 30px;
     justify-content: center;
    
   }
@@ -155,21 +162,22 @@
     align-items: center;
     justify-content: center;
     padding: 16px;
+    /* border: 5px solid#ffde59; */
   
     transition: background 0.3s;
     border-radius: 50%;
-    background: rgba(53, 51, 59, 0.322);
+    background: #ffde5971;
      backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     
   
   }
   
-  /* Estilização dos icones de redes sociais */
-  #social-links a:hover{
-    background: rgb(49, 45, 73);
+  /* estilização dos icones de redes sociais */
+   #social-links a:hover{
     border-radius: 50%;
-    border: 1px solid rgba(116, 106, 136, 0.493);
+    background-color: #ffde59;
+    border: 1px solid #ffde59;
   }
   
   /* Rodape da pagina */
@@ -189,8 +197,8 @@
   
   }
   
-  @media (min-width: 700px) {
+  /* @media (min-width: 700px) {
     :root{
-      --bg-url: url(./photos\1111853.jpg)
+      --bg-url: url()
     }
-  }
+  } */

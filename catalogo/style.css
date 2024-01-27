@@ -64,6 +64,7 @@ nav a {
     margin: 4px auto 0 auto;
     margin-left: 50%px;;
     border-radius: 10px;
+    margin-top: 50px;
 }
 
 ::-webkit-scrollbar{
@@ -119,7 +120,7 @@ nav a {
 }
 
 .news:hover{
-    transform: scale(1.1);
+    transform: scale(1.3);
     transition: .3s;
     
     
@@ -175,7 +176,7 @@ nav a {
 }
 
 .newsf:hover{
-    transform: scale(1.1);
+    transform: scale(1.3);
     transition: .3s;
     
 }
