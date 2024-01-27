@@ -63,7 +63,7 @@
   
     /* Alinhar ao centro, caso não pegue, ultilize o "display: block" para forçar o alinhamento. */
     margin: auto;
-    margin-top:25%;
+    margin-top:15%;
   }
   
   /* Paragrafos */
